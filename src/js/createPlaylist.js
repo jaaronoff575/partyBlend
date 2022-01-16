@@ -33,7 +33,7 @@ function handleCreatePlaylist() {
     data["description"] = description;
     var js = JSON.stringify(data);
     console.log("JS:" + js);
-    
+
     var xhr = new XMLHttpRequest();
     xhr.open("POST", createPlaylist + user_id + "/playlists", true);
 
