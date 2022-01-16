@@ -1,4 +1,5 @@
 var playlist_id = 0;
+var loggedInUsers = 0;
 
 function processCreatePlaylistResponse(response) {
     console.log("response is: " + response)
