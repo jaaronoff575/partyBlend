@@ -14,7 +14,6 @@ function processTopTracksResponse(response){
 
     } else {
         console.log("400")
-        location.href = "playlistCreated.html"
     }
 }
 
