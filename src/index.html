@@ -1,3 +1,10 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
 <div class="container">
     <h1>Displaying User Data</h1>
     <p>Log in with your Spotify account and this demo will display information about you fetched using the Spotify Web API</p>
@@ -6,20 +13,22 @@
 </div>
 <script id="result-template" type="text/x-handlebars-template">
     <dl>
-      <img src="{{images.0.url}}">
-      <dt>User Name</dt>
-      <dd>{{id}}</dd>
-      <dt>Display Name</dt>
-      <dd>{{display_name}}</dd>
-      <dt>Country</dt>
-      <dd>{{country}}</dd>
-      <dt>Followers</dt>
-      <dd>{{followers.total}}</dd>
-      <dt>Profile</dt>
-      <dd><a href="{{external_urls.spotify}}" target="_blank">{{external_urls.spotify}}</a></dd>
-      <dt>Email</dt>
-      <dd>{{email}}</dd>
-      <dt>Product</dt>
-      <dd>{{product}}</dd>
+        <img src="{{images.0.url}}">
+        <dt>User Name</dt>
+        <dd>{{id}}</dd>
+        <dt>Display Name</dt>
+        <dd>{{display_name}}</dd>
+        <dt>Country</dt>
+        <dd>{{country}}</dd>
+        <dt>Followers</dt>
+        <dd>{{followers.total}}</dd>
+        <dt>Profile</dt>
+        <dd><a href="{{external_urls.spotify}}" target="_blank">{{external_urls.spotify}}</a></dd>
+        <dt>Email</dt>
+        <dd>{{email}}</dd>
+        <dt>Product</dt>
+        <dd>{{product}}</dd>
     </dl>
 </script>
+</body>
+</html>
