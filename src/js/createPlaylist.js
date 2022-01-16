@@ -1,8 +1,8 @@
 var playlist_id = 0;
 var loggedInUsers = 0;
+var topTracks = {};
 
-//filler variable for what ever the user id is
-var user_id = 0;
+
 
 function processCreatePlaylistResponse(response) {
     console.log("response is: " + response)

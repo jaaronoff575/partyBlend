@@ -1,4 +1,5 @@
-
+//filler variable for what ever the user id is
+var user_id = 0;
 
 
 function processFollowPlaylistResponse(response) {
